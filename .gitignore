@@ -1,6 +1,8 @@
 datasets
+notebooks
 __pycache__/
 *.pyc
 .env
 .vscode/
 .pytest_cache/
+checkpoints
