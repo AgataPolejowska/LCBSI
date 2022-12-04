@@ -20,7 +20,8 @@ class RunInferenceButton:
                     className="mb-4",
                     style={"width": "100%"},
                 ),
-            ], className="my-4"
+            ],
+            className="my-4",
         )
 
     def register_callbacks(self, app):

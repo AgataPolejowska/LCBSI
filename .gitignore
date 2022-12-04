@@ -6,3 +6,15 @@ __pycache__/
 .vscode/
 .pytest_cache/
 checkpoints
+condaenv.*
+presentations
+lightning_logs
+LCBSI-DS*
+wandb
+monai
+classification_report*
+confusion_matrix*
+*.pth
+*.pt
+*.zip
+*.log

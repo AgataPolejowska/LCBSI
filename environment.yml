@@ -5,6 +5,7 @@ channels:
   - anaconda
   - defaults
 dependencies:
+  - monai
   - python=3.8
   - pywin32
   - cudatoolkit=11.0
@@ -50,3 +51,4 @@ dependencies:
     - roboflow
     - wandb
     - isort
+    - scikit-learn
