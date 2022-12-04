@@ -10,6 +10,8 @@ Create the environment:
 Update the environment:
 `conda env update -f environment.yml`
 
+Run the app (in the root project directory):
+`python index.py`
 
 ## Models notebooks
 https://github.com/AgataPolejowska/LCBSI/tree/main/notebooks
@@ -25,7 +27,7 @@ RAABIN-WBC
 
 Total: 2000 images, 400 per class
 
-
+Hugging face hub: https://huggingface.co/datasets/polejowska/lcbsi-wbc
 
 ### Models
 

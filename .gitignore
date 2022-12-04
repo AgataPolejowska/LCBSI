@@ -1,5 +1,4 @@
 datasets
-notebooks
 __pycache__/
 *.pyc
 .env
@@ -18,3 +17,6 @@ confusion_matrix*
 *.pt
 *.zip
 *.log
+.ipynb_checkpoints
+pathology_nuclei_classification
+lcbsi-monai-pl
