@@ -2,11 +2,37 @@
 Leukocytes classification from blood smear images.
 
 
-## Models notebooks
+## Setup the environment
 
-- Cutom model
-https://colab.research.google.com/drive/1w_UP03yvjKV3lyRS24Yyqo_W33xNCC4j?usp=sharing
-- ResNet
-https://drive.google.com/file/d/1xCr7SEWo5GhVjsS94kj3bPvSNxTc32H9/view?usp=sharing
-- ViT
-https://colab.research.google.com/drive/1kaWvqWS4pGM6CxxC7_gT6apcPUUl4nzW?usp=sharing
+Create the environment:
+`conda env create -f environment.yml`
+
+Update the environment:
+`conda env update -f environment.yml`
+
+
+## Models notebooks
+https://github.com/AgataPolejowska/LCBSI/tree/main/notebooks
+
+
+## Dataset
+
+PBC
+* 200 images for each class
+
+RAABIN-WBC
+* 200 images for each class
+
+Total: 2000 images, 400 per class
+
+
+
+### Models
+
+Pretrained: https://github.com/Project-MONAI/model-zoo/releases/tag/hosting_storage_v1 
+
+https://github.com/Project-MONAI/model-zoo/tree/dev/models/pathology_nuclei_classification 
+
+Model zoo: https://github.com/Project-MONAI/tutorials/tree/main/model_zoo/transfer_learning_with_bundle
+https://docs.monai.io/en/latest/networks.html#densenet121
+https://github.com/Project-MONAI/model-zoo/tree/dev/models
