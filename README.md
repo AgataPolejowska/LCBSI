@@ -2,7 +2,7 @@
 Leukocytes classification from blood smear images.
 
 
-## Setup the environment
+## Set up the environment
 
 Create the environment:
 `conda env create -f environment.yml`
