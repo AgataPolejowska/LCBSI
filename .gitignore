@@ -20,3 +20,6 @@ confusion_matrix*
 .ipynb_checkpoints
 pathology_nuclei_classification
 lcbsi-monai-pl
+notebooks/artifacts/
+notebooks/lcbsi_dataset/
+notebooks/LCBSI-WBC*

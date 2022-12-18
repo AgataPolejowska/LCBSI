@@ -1,4 +1,4 @@
-name: lcbsi
+name: lcbsi-ai
 channels:
   - pytorch
   - conda-forge
