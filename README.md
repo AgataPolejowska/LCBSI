@@ -52,6 +52,16 @@ Additional information about DenseNet121: https://docs.monai.io/en/latest/networ
 
 Other models available in MONAI: https://github.com/Project-MONAI/model-zoo/tree/dev/models
 
+## Experiments
+
+### W&B runs
+
+https://wandb.ai/polejowska/lcbsi-densenet-monai-ap
+https://wandb.ai/polejowska/lcbsi-vits-sweeps
+
+### W&B reports
+
+https://wandb.ai/polejowska/vit-classification-lcbsi/reports/Leukocytes-classification-from-blood-smear-images--VmlldzozMTU1NjI0
 
 ## Additional application
 
