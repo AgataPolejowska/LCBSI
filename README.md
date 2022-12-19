@@ -37,6 +37,7 @@ Data is split to 70% training data, 15% validation data and 15% test data.
 - test data: 750 images - 150 images per each class (75 for each dataset except basophil class from PBC - 45 images and from RAABIN-WBC - 30 images)
 
 Hugging Face Hub Dataset: https://huggingface.co/datasets/polejowska/lcbsi-wbc-ap
+![Zrzut ekranu 2022-12-19 093347](https://user-images.githubusercontent.com/44722312/208382231-088e19cb-1e85-4994-83dd-2d39f9d47d45.png)
 
 ## Models
 
@@ -56,8 +57,20 @@ Other models available in MONAI: https://github.com/Project-MONAI/model-zoo/tree
 
 ### W&B runs
 
+1) DenseNet121 MONAI + AI Lightning sweeps
 https://wandb.ai/polejowska/lcbsi-densenet-monai-ap
+
+![W B Chart 19_12_2022, 09_30_48](https://user-images.githubusercontent.com/44722312/208381746-8fb354ac-b13e-47e6-9c43-099562ed163d.png)
+
+2) ViTs architectures
+https://wandb.ai/polejowska/vit-classification-lcbsi
+
+![W B Chart 19_12_2022, 09_28_40](https://user-images.githubusercontent.com/44722312/208381273-ce1c2c5c-0c7b-4e32-ac94-3f14af7c3651.png)
+
+3) ViTs hyperparameters sweeps
 https://wandb.ai/polejowska/lcbsi-vits-sweeps
+
+![W B Chart 19_12_2022, 09_27_08](https://user-images.githubusercontent.com/44722312/208380992-40b5f02b-3e74-4265-8ef5-395417aeafe4.png)
 
 ### W&B reports
 
@@ -67,3 +80,5 @@ https://wandb.ai/polejowska/vit-classification-lcbsi/reports/Leukocytes-classifi
 
 You can experiment with the trained vision transformer in the Hugging Face space:
 https://huggingface.co/spaces/polejowska/LCBSI
+
+![Zrzut ekranu 2022-12-19 093216](https://user-images.githubusercontent.com/44722312/208381957-1b0fb247-4165-47e7-bba1-cdba2b2d0f31.png)
