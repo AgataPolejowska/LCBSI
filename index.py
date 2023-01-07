@@ -1,10 +1,8 @@
 from dash.dependencies import Input, Output
 
 from app import app
-from callbacks.displaying import register_image_displaying_callbacks
-from callbacks.uploading import register_image_uploading_callbacks
 from callbacks.predicting import register_predicting_callbacks
-
+from callbacks.uploading import register_image_uploading_callbacks
 from pages import main_page
 
 
@@ -16,12 +14,8 @@ def display_page(pathname):
         return "404 Not Found"
 
 
-""" Run the app """
-
-
 if __name__ == "__main__":
-    register_image_displaying_callbacks(app)
     register_image_uploading_callbacks(app)
     register_predicting_callbacks(app)
 
-    app.run_server(debug=True)
+    app.run_server(debug=False)

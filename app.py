@@ -6,9 +6,8 @@ from transformers import pipeline
 from components import navbar
 from constants import EXTERNAL_STYLESHEETS
 
-nav = navbar.Navbar()
 
-server = Flask(__name__)
+nav = navbar.Navbar()
 
 
 def get_layout():
@@ -22,6 +21,8 @@ def get_layout():
     return layout
 
 
+server = Flask(__name__)
+
 app = dash.Dash(
     __name__,
     server=server,
@@ -33,5 +34,4 @@ app = dash.Dash(
 app.title = "LCBSI"
 app._favicon = "assets\\favicon\\favicon.ico"
 
-# Base app layout
 app.layout = get_layout

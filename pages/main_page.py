@@ -1,9 +1,8 @@
 import dash
 import dash_bootstrap_components as dbc
-from dash import html
-from dash import dcc
+from dash import dcc, html
 
-from components import (image_display, model_selection, prediction_result)
+from components import image_display, model_selection, prediction_result
 
 dash.register_page(__name__)
 
@@ -41,11 +40,12 @@ layout = dbc.Container(
                 dbc.Col([image_displayed.get_layout()], className="p-4 col-6"),
                 dbc.Col(
                     [
-                        html.Div([
-                            html.H6("Upload image"),
-                            image_upload,
-                        ],
-                        className="my-4 mt-5"
+                        html.Div(
+                            [
+                                html.H6("Upload image"),
+                                image_upload,
+                            ],
+                            className="my-4 mt-5",
                         ),
                         model_selection.get_layout(),
                         html.Div(
