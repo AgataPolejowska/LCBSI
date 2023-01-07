@@ -1,6 +1,7 @@
 import dash
 from dash import dcc, html
 from flask import Flask
+from transformers import pipeline
 
 from components import navbar
 from constants import EXTERNAL_STYLESHEETS

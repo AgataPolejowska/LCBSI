@@ -10,23 +10,6 @@ class ImageDisplay:
         self.wait_time = wait_time
 
     def get_layout(self):
-
-        # upload field for image
-        image_upload = dcc.Upload(
-            id="image-upload",
-            children=html.Div(["Drag and drop or click to select an image to upload."]),
-            style={
-                "height": "80px",
-                "lineHeight": "80px",
-                "borderWidth": "1px",
-                "borderStyle": "dashed",
-                "borderRadius": "5px",
-                "textAlign": "center",
-                "margin": "10px",
-            },
-            multiple=False,
-        )
-
         image_display = html.Img(
             id="image-display",
             src=self.image,
@@ -49,8 +32,6 @@ class ImageDisplay:
 
         layout = html.Div(
             [
-                html.H6("Upload image"),
-                image_upload,
                 image_display_card,
                 dcc.Interval(id="interval", interval=self.wait_time * 1000),
             ]

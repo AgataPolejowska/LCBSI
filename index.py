@@ -3,6 +3,8 @@ from dash.dependencies import Input, Output
 from app import app
 from callbacks.displaying import register_image_displaying_callbacks
 from callbacks.uploading import register_image_uploading_callbacks
+from callbacks.predicting import register_predicting_callbacks
+
 from pages import main_page
 
 
@@ -18,8 +20,8 @@ def display_page(pathname):
 
 
 if __name__ == "__main__":
-
     register_image_displaying_callbacks(app)
     register_image_uploading_callbacks(app)
+    register_predicting_callbacks(app)
 
-    app.run_server(debug=True, dev_tools_hot_reload=False)
+    app.run_server(debug=True)
