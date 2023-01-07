@@ -13,8 +13,8 @@ Update the environment:
 Run the app (in the root project directory):
 `python index.py`
 
-## Models notebooks
-https://github.com/AgataPolejowska/LCBSI/tree/main/notebooks
+## Main models notebooks
+https://github.com/AgataPolejowska/LCBSI/tree/main/notebooks/main_notebooks
 
 
 ## Dataset
