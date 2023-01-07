@@ -1,14 +1,8 @@
 import dash
 import dash_bootstrap_components as dbc
 
-
-from components import (
-    image_display,
-    model_selection,
-    prediction_result,
-    run_inference,
-)
-
+from components import (image_display, model_selection, prediction_result,
+                        run_inference)
 
 dash.register_page(__name__)
 

@@ -1,8 +1,8 @@
-from callbacks.uploading import register_image_uploading_callbacks
 from dash.dependencies import Input, Output
 
 from app import app
 from callbacks.displaying import register_image_displaying_callbacks
+from callbacks.uploading import register_image_uploading_callbacks
 from pages import main_page
 
 

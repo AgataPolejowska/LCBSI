@@ -1,5 +1,4 @@
-from dash import html
-from dash import dcc
+from dash import dcc, html
 
 # choose model from dropdown menu
 
