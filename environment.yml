@@ -1,43 +1,36 @@
 name: lcbsi-ai
 channels:
-  - pytorch
+  - apple
+  - pytorch-nightly
   - conda-forge
-  - anaconda
-  - defaults
 dependencies:
   - monai
-  - python=3.8
-  - pywin32
-  - cudatoolkit=11.0
-  - pytorch==1.7.1
-  - torchvision==0.8.2
-  - dash-bootstrap-components==1.2.1
-  - dash-core-components==2.0.0
-  - dash-html-components==2.0.0
-  - dash-table==5.0.0
-  - dash==2.6.1
-  - dash-daq==0.5.0
-  - flask-compress==1.12
-  - flask==2.2.2
-  - itsdangerous==2.1.2
-  - jinja2==3.1.2
-  - markupsafe==2.1.1
-  - numpy==1.23.1
-  - plotly==5.10.0
-  - git
+  - python=3.9
+  - pytorch
+  - tensorflow-deps
+  - pytorch-lightning
+  - torchvision
+  - dash-bootstrap-components
+  - dash-core-components
+  - dash-html-components
+  - dash-table
+  - dash
+  - dash-daq
+  - flask-compress
+  - flask
+  - numpy
+  - plotly
   - pip
   - pip:
-    - pytorch-lightning
+    - tensorflow-metal==0.5.0
+    - tensorflow-macos==2.9
     - ipywidgets==7.7.2
-    - pillow==7.1.2
-    - gdown==4.5.1
+    - pillow
     - seaborn
     - importlib-metadata==4.12.0
     - opencv-python==4.6.0.66
     - ipython
     - psutil
-    - tensorflow
-    - tensorflow-hub
     - torchstain==1.2.0
     - scikit-image
     - black
@@ -46,3 +39,6 @@ dependencies:
     - wandb
     - isort
     - scikit-learn
+    - huggingface-hub
+    - transformers
+    - datasets

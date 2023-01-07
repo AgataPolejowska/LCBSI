@@ -23,3 +23,4 @@ lcbsi-monai-pl
 notebooks/artifacts/
 notebooks/lcbsi_dataset/
 notebooks/LCBSI-WBC*
+.DS_Store
