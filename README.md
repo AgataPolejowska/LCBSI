@@ -73,6 +73,8 @@ https://wandb.ai/polejowska/lcbsi-vits-sweeps
 
 ![W B Chart 19_12_2022, 09_27_08](https://user-images.githubusercontent.com/44722312/208380992-40b5f02b-3e74-4265-8ef5-395417aeafe4.png)
 
+Finally developed model: https://huggingface.co/polejowska/swin-tiny-patch4-window7-224-lcbsi-wbc-new
+
 ### W&B reports
 
 https://wandb.ai/polejowska/vit-classification-lcbsi/reports/Leukocytes-classification-from-blood-smear-images--VmlldzozMTU1NjI0
